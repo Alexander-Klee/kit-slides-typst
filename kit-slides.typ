@@ -245,7 +245,7 @@
           pad(
             left: 6mm,
             context if kit-show-page-count.get() [
-              #toolbox.slide-number/#strong(utils.last-slide-number)
+              #toolbox.slide-number/#strong(toolbox.last-slide-number)
             ] else [
               #toolbox.slide-number
             ],
